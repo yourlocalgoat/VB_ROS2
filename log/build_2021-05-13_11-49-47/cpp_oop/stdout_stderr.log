@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target cpp_oop_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_oop_test.dir/src/node_file.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cpp_oop_test[0m
+[100%] Built target cpp_oop_test
+-- Install configuration: ""
+-- Installing: /home/salman/ros2_ws/install/cpp_oop/lib/cpp_oop/cpp_oop_test
+-- Set runtime path of "/home/salman/ros2_ws/install/cpp_oop/lib/cpp_oop/cpp_oop_test" to ""
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/package_run_dependencies/cpp_oop
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/parent_prefix_path/cpp_oop
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/path.sh
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/path.dsv
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.bash
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.sh
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.zsh
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.dsv
+-- Installing: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/package.dsv
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/packages/cpp_oop
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/cmake/cpp_oopConfig.cmake
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/cmake/cpp_oopConfig-version.cmake
+-- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/package.xml

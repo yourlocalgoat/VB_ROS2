@@ -1,0 +1,71 @@
+[0.054s] Invoking command in '/home/salman/ros2_ws/build/cppOOP': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/salman/ros2_ws/src/cppOOP -DCMAKE_INSTALL_PREFIX=/home/salman/ros2_ws/install/cppOOP
+[0.520s] -- The C compiler identification is GNU 9.3.0
+[0.777s] -- The CXX compiler identification is GNU 9.3.0
+[0.800s] -- Check for working C compiler: /usr/bin/cc
+[0.926s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.933s] -- Detecting C compiler ABI info
+[1.039s] -- Detecting C compiler ABI info - done
+[1.070s] -- Detecting C compile features
+[1.072s] -- Detecting C compile features - done
+[1.080s] -- Check for working CXX compiler: /usr/bin/c++
+[1.212s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.214s] -- Detecting CXX compiler ABI info
+[1.343s] -- Detecting CXX compiler ABI info - done
+[1.372s] -- Detecting CXX compile features
+[1.374s] -- Detecting CXX compile features - done
+[1.401s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.456s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.457s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.870s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.010s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.183s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.239s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.565s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.574s] -- Looking for pthread.h
+[2.708s] -- Looking for pthread.h - found
+[2.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.825s] -- Looking for pthread_create in pthreads
+[2.917s] -- Looking for pthread_create in pthreads - not found
+[2.917s] -- Looking for pthread_create in pthread
+[3.024s] -- Looking for pthread_create in pthread - found
+[3.026s] -- Found Threads: TRUE  
+[3.430s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.525s] WARNING: Package name "cppOOP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.595s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.599s] -- Configured cppcheck include dirs: 
+[3.599s] -- Configured cppcheck exclude dirs and/or files: 
+[3.602s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.602s] -- Configured cpplint exclude dirs and/or files: 
+[3.605s] -- Added test 'lint_cmake' to check CMake code style
+[3.608s] -- Added test 'uncrustify' to check C / C++ code style
+[3.608s] -- Configured uncrustify additional arguments: 
+[3.610s] -- Added test 'xmllint' to check XML markup files
+[3.617s] -- Configuring done
+[3.621s] -- Generating done
+[3.625s] -- Build files have been written to: /home/salman/ros2_ws/build/cppOOP
+[3.636s] Invoked command in '/home/salman/ros2_ws/build/cppOOP' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/salman/ros2_ws/src/cppOOP -DCMAKE_INSTALL_PREFIX=/home/salman/ros2_ws/install/cppOOP
+[3.642s] Invoking command in '/home/salman/ros2_ws/build/cppOOP': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cppOOP -- -j2 -l2
+[3.703s] Invoked command in '/home/salman/ros2_ws/build/cppOOP' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cppOOP -- -j2 -l2
+[3.756s] Invoking command in '/home/salman/ros2_ws/build/cppOOP': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/salman/ros2_ws/build/cppOOP
+[3.769s] -- Install configuration: ""
+[3.772s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/ament_index/resource_index/package_run_dependencies/cppOOP
+[3.772s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/ament_index/resource_index/parent_prefix_path/cppOOP
+[3.772s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/environment/ament_prefix_path.sh
+[3.773s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/environment/ament_prefix_path.dsv
+[3.773s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/environment/path.sh
+[3.773s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/environment/path.dsv
+[3.773s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/local_setup.bash
+[3.774s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/local_setup.sh
+[3.774s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/local_setup.zsh
+[3.774s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/local_setup.dsv
+[3.774s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/package.dsv
+[3.775s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/ament_index/resource_index/packages/cppOOP
+[3.775s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/cmake/cppOOPConfig.cmake
+[3.775s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/cmake/cppOOPConfig-version.cmake
+[3.775s] -- Installing: /home/salman/ros2_ws/install/cppOOP/share/cppOOP/package.xml
+[3.779s] Invoked command in '/home/salman/ros2_ws/build/cppOOP' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/salman/ros2_ws/build/cppOOP

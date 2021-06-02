@@ -1,0 +1,18 @@
+[0.459s] Invoking command in '/home/salman/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/salman/ros2_ws/install/my_py_pkg --editable --build-directory /home/salman/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/salman/ros2_ws/install/my_py_pkg
+[0.878s] running develop
+[1.100s] running egg_info
+[1.100s] writing my_py_pkg.egg-info/PKG-INFO
+[1.101s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.102s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.102s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.103s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.169s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.171s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.297s] running build_ext
+[1.299s] Creating /home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/site.py
+[1.303s] Creating /home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[1.305s] Installing py_node script to /home/salman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.305s] 
+[1.306s] Installed /home/salman/ros2_ws/build/my_py_pkg
+[1.306s] running install_data
+[1.351s] Invoked command in '/home/salman/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/salman/ros2_ws/install/my_py_pkg --editable --build-directory /home/salman/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/salman/ros2_ws/install/my_py_pkg

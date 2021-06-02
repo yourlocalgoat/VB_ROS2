@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (-) JobUnselected: {'identifier': 'cpp_oop'}
+[0.000479] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000533] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000586] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.041100] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.045907] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.046038] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/salman/ros2_ws/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/salman/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'salman'), ('SSH_AGENT_PID', '1507'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/salman'), ('OLDPWD', '/home/salman'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2953'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/salman/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'salman'), ('JOURNAL_STREAM', '8:33260'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salman-VirtualBox:@/tmp/.ICE-unix/1567,unix/salman-VirtualBox:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', 'e7df74385296487e81d2b1a29e970eaa'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/salman/ros2_ws/install/my_py_pkg:/home/salman/ros2_ws/install/my_cpp_pkg:/home/salman/ros2_ws/install/cpp_oop:/home/salman/ros2_ws/install/cppOOP:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:50693a66-cf0c-4204-aae9-9cec73c1883d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salman/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/salman/ros2_ws/install/my_cpp_pkg:/home/salman/ros2_ws/install/cpp_oop:/home/salman/ros2_ws/install/cppOOP:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.097912] (-) TimerEvent: {}
+[0.188407] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198387] (-) TimerEvent: {}
+[0.255047] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.298572] (-) TimerEvent: {}
+[0.399202] (-) TimerEvent: {}
+[0.499734] (-) TimerEvent: {}
+[0.600185] (-) TimerEvent: {}
+[0.673739] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700380] (-) TimerEvent: {}
+[0.800819] (-) TimerEvent: {}
+[0.802927] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.818552] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.900974] (-) TimerEvent: {}
+[1.001333] (-) TimerEvent: {}
+[1.101816] (-) TimerEvent: {}
+[1.118551] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202395] (-) TimerEvent: {}
+[1.294080] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.300451] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302574] (-) TimerEvent: {}
+[1.402895] (-) TimerEvent: {}
+[1.503714] (-) TimerEvent: {}
+[1.604271] (-) TimerEvent: {}
+[1.698792] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[1.704541] (-) TimerEvent: {}
+[1.805476] (-) TimerEvent: {}
+[1.905931] (-) TimerEvent: {}
+[2.006389] (-) TimerEvent: {}
+[2.106880] (-) TimerEvent: {}
+[2.138413] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.192673] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.198994] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/salman/ros2_ws/build/my_cpp_pkg\n'}
+[2.207156] (-) TimerEvent: {}
+[2.244017] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target smartphone\x1b[0m\n'}
+[2.251564] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_news_station\x1b[0m\n'}
+[2.307379] (-) TimerEvent: {}
+[2.326606] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[2.410971] (-) TimerEvent: {}
+[2.490665] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[2.511175] (-) TimerEvent: {}
+[2.611772] (-) TimerEvent: {}
+[2.712328] (-) TimerEvent: {}
+[2.812758] (-) TimerEvent: {}
+[2.914960] (-) TimerEvent: {}
+[3.015320] (-) TimerEvent: {}
+[3.115736] (-) TimerEvent: {}
+[3.216371] (-) TimerEvent: {}
+[3.317121] (-) TimerEvent: {}
+[3.417636] (-) TimerEvent: {}
+[3.518366] (-) TimerEvent: {}
+[3.618927] (-) TimerEvent: {}
+[3.719852] (-) TimerEvent: {}
+[3.820342] (-) TimerEvent: {}
+[3.920810] (-) TimerEvent: {}
+[4.021392] (-) TimerEvent: {}
+[4.121921] (-) TimerEvent: {}
+[4.222347] (-) TimerEvent: {}
+[4.322881] (-) TimerEvent: {}
+[4.423356] (-) TimerEvent: {}
+[4.523921] (-) TimerEvent: {}
+[4.624355] (-) TimerEvent: {}
+[4.724927] (-) TimerEvent: {}
+[4.825465] (-) TimerEvent: {}
+[4.925975] (-) TimerEvent: {}
+[5.026595] (-) TimerEvent: {}
+[5.127327] (-) TimerEvent: {}
+[5.228137] (-) TimerEvent: {}
+[5.328806] (-) TimerEvent: {}
+[5.429276] (-) TimerEvent: {}
+[5.529869] (-) TimerEvent: {}
+[5.630293] (-) TimerEvent: {}
+[5.736226] (-) TimerEvent: {}
+[5.840707] (-) TimerEvent: {}
+[5.941238] (-) TimerEvent: {}
+[6.041746] (-) TimerEvent: {}
+[6.142270] (-) TimerEvent: {}
+[6.242959] (-) TimerEvent: {}
+[6.343653] (-) TimerEvent: {}
+[6.444216] (-) TimerEvent: {}
+[6.544782] (-) TimerEvent: {}
+[6.645363] (-) TimerEvent: {}
+[6.745997] (-) TimerEvent: {}
+[6.847833] (-) TimerEvent: {}
+[6.948501] (-) TimerEvent: {}
+[7.049392] (-) TimerEvent: {}
+[7.150159] (-) TimerEvent: {}
+[7.250834] (-) TimerEvent: {}
+[7.351550] (-) TimerEvent: {}
+[7.451934] (-) TimerEvent: {}
+[7.552342] (-) TimerEvent: {}
+[7.652719] (-) TimerEvent: {}
+[7.753222] (-) TimerEvent: {}
+[7.853755] (-) TimerEvent: {}
+[7.954357] (-) TimerEvent: {}
+[8.054872] (-) TimerEvent: {}
+[8.155497] (-) TimerEvent: {}
+[8.256156] (-) TimerEvent: {}
+[8.356736] (-) TimerEvent: {}
+[8.457362] (-) TimerEvent: {}
+[8.557986] (-) TimerEvent: {}
+[8.658752] (-) TimerEvent: {}
+[8.759422] (-) TimerEvent: {}
+[8.859992] (-) TimerEvent: {}
+[8.960989] (-) TimerEvent: {}
+[9.061740] (-) TimerEvent: {}
+[9.162285] (-) TimerEvent: {}
+[9.262825] (-) TimerEvent: {}
+[9.363581] (-) TimerEvent: {}
+[9.464112] (-) TimerEvent: {}
+[9.564655] (-) TimerEvent: {}
+[9.665260] (-) TimerEvent: {}
+[9.765964] (-) TimerEvent: {}
+[9.866503] (-) TimerEvent: {}
+[9.967265] (-) TimerEvent: {}
+[10.067815] (-) TimerEvent: {}
+[10.145954] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[10.168036] (-) TimerEvent: {}
+[10.268590] (-) TimerEvent: {}
+[10.369193] (-) TimerEvent: {}
+[10.469868] (-) TimerEvent: {}
+[10.570280] (-) TimerEvent: {}
+[10.670846] (-) TimerEvent: {}
+[10.720313] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target robot_news_station\n'}
+[10.771055] (-) TimerEvent: {}
+[10.826102] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target cpp_node\n'}
+[10.871323] (-) TimerEvent: {}
+[10.971963] (-) TimerEvent: {}
+[11.073010] (-) TimerEvent: {}
+[11.173551] (-) TimerEvent: {}
+[11.274102] (-) TimerEvent: {}
+[11.374683] (-) TimerEvent: {}
+[11.475658] (-) TimerEvent: {}
+[11.576523] (-) TimerEvent: {}
+[11.677425] (-) TimerEvent: {}
+[11.778024] (-) TimerEvent: {}
+[11.878971] (-) TimerEvent: {}
+[11.979477] (-) TimerEvent: {}
+[12.080113] (-) TimerEvent: {}
+[12.180748] (-) TimerEvent: {}
+[12.281496] (-) TimerEvent: {}
+[12.382214] (-) TimerEvent: {}
+[12.482745] (-) TimerEvent: {}
+[12.583282] (-) TimerEvent: {}
+[12.683794] (-) TimerEvent: {}
+[12.784469] (-) TimerEvent: {}
+[12.884933] (-) TimerEvent: {}
+[12.985448] (-) TimerEvent: {}
+[13.086318] (-) TimerEvent: {}
+[13.186760] (-) TimerEvent: {}
+[13.287399] (-) TimerEvent: {}
+[13.343660] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[13.387878] (-) TimerEvent: {}
+[13.488534] (-) TimerEvent: {}
+[13.589475] (-) TimerEvent: {}
+[13.690107] (-) TimerEvent: {}
+[13.787477] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[13.790270] (-) TimerEvent: {}
+[13.812312] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[13.864419] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[13.881371] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/salman/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/salman/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'salman'), ('SSH_AGENT_PID', '1507'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/salman'), ('OLDPWD', '/home/salman'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1293'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2953'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/salman/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'salman'), ('JOURNAL_STREAM', '8:33260'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/salman-VirtualBox:@/tmp/.ICE-unix/1567,unix/salman-VirtualBox:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', 'e7df74385296487e81d2b1a29e970eaa'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/salman/ros2_ws/install/my_py_pkg:/home/salman/ros2_ws/install/my_cpp_pkg:/home/salman/ros2_ws/install/cpp_oop:/home/salman/ros2_ws/install/cppOOP:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:50693a66-cf0c-4204-aae9-9cec73c1883d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salman/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/salman/ros2_ws/install/my_cpp_pkg:/home/salman/ros2_ws/install/cpp_oop:/home/salman/ros2_ws/install/cppOOP:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[13.890464] (-) TimerEvent: {}
+[13.900053] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.909514] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[13.912315] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[13.913772] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/salman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[13.914082] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[13.918134] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/salman/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[13.921400] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[13.923777] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[13.927603] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[13.928076] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[13.929011] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[13.931390] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[13.932647] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[13.933046] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[13.933438] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[13.933796] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[13.934740] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[13.936000] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[13.937153] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[13.937455] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[13.938369] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/salman/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[13.943033] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[13.990691] (-) TimerEvent: {}
+[14.063198] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[14.064628] (-) EventReactorShutdown: {}

@@ -1,0 +1,18 @@
+[0.045s] Invoking command in '/home/salman/ros2_ws/build/cpp_oop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cpp_oop -- -j2 -l2
+[0.100s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.501s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.246s] CMake Error at CMakeLists.txt:24 (aent_target_dependencies):
+[1.247s]   Unknown CMake command "aent_target_dependencies".
+[1.247s] 
+[1.247s] 
+[1.248s] -- Configuring incomplete, errors occurred!
+[1.249s] See also "/home/salman/ros2_ws/build/cpp_oop/CMakeFiles/CMakeOutput.log".
+[1.249s] See also "/home/salman/ros2_ws/build/cpp_oop/CMakeFiles/CMakeError.log".
+[1.259s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.263s] Invoked command in '/home/salman/ros2_ws/build/cpp_oop' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cpp_oop -- -j2 -l2

@@ -1,0 +1,6 @@
+WARNING: Package name "cppOOP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at CMakeLists.txt:33 (install):
+  install TARGETS given target "cpp_OOP_executable" which does not exist.
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

@@ -1,0 +1,24 @@
+[0.497s] Invoking command in '/home/salman/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/salman/ros2_ws/build/my_py_pkg/build install --prefix /home/salman/ros2_ws/install/my_py_pkg --record /home/salman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.873s] running egg_info
+[0.874s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.875s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.875s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.946s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.949s] running build_py
+[0.949s] copying my_py_pkg/my_first_node.py -> /home/salman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.949s] running install
+[0.951s] running install_lib
+[0.953s] copying /home/salman/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.954s] byte-compiling /home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[0.956s] running install_data
+[0.957s] running install_egg_info
+[0.960s] removing '/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.960s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.962s] running install_scripts
+[0.993s] Installing py_node script to /home/salman/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.994s] writing list of installed files to '/home/salman/ros2_ws/build/my_py_pkg/install.log'
+[1.035s] Invoked command in '/home/salman/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/salman/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/salman/ros2_ws/build/my_py_pkg/build install --prefix /home/salman/ros2_ws/install/my_py_pkg --record /home/salman/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

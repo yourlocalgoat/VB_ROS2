@@ -1,0 +1,1 @@
+Invoking command in '/home/salman/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/my_cpp_pkg -- -j2 -l2

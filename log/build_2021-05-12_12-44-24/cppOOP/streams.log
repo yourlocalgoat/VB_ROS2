@@ -1,0 +1,30 @@
+[0.053s] Invoking command in '/home/salman/ros2_ws/build/cppOOP': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cppOOP -- -j2 -l2
+[0.125s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.591s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.674s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.055s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.404s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.513s] WARNING: Package name "cppOOP" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.545s] CMake Error at CMakeLists.txt:33 (install):
+[1.545s]   install TARGETS given target "cpp_OOP_executable" which does not exist.
+[1.545s] 
+[1.546s] 
+[1.552s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.554s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.554s] -- Configured cppcheck include dirs: 
+[1.554s] -- Configured cppcheck exclude dirs and/or files: 
+[1.555s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.555s] -- Configured cpplint exclude dirs and/or files: 
+[1.556s] -- Added test 'lint_cmake' to check CMake code style
+[1.558s] -- Added test 'uncrustify' to check C / C++ code style
+[1.558s] -- Configured uncrustify additional arguments: 
+[1.558s] -- Added test 'xmllint' to check XML markup files
+[1.562s] -- Configuring incomplete, errors occurred!
+[1.562s] See also "/home/salman/ros2_ws/build/cppOOP/CMakeFiles/CMakeOutput.log".
+[1.563s] See also "/home/salman/ros2_ws/build/cppOOP/CMakeFiles/CMakeError.log".
+[1.574s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.577s] Invoked command in '/home/salman/ros2_ws/build/cppOOP' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cppOOP -- -j2 -l2

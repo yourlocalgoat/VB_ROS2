@@ -1,0 +1,26 @@
+[0.053s] Invoking command in '/home/salman/ros2_ws/build/cpp_oop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cpp_oop -- -j2 -l2
+[0.299s] [35m[1mScanning dependencies of target cpp_oop_test[0m
+[0.360s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_oop_test.dir/src/node_file.cpp.o[0m
+[4.688s] [100%] [32m[1mLinking CXX executable cpp_oop_test[0m
+[5.074s] [100%] Built target cpp_oop_test
+[5.113s] Invoked command in '/home/salman/ros2_ws/build/cpp_oop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/salman/ros2_ws/build/cpp_oop -- -j2 -l2
+[5.175s] Invoking command in '/home/salman/ros2_ws/build/cpp_oop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/salman/ros2_ws/build/cpp_oop
+[5.199s] -- Install configuration: ""
+[5.203s] -- Installing: /home/salman/ros2_ws/install/cpp_oop/lib/cpp_oop/cpp_oop_test
+[5.204s] -- Set runtime path of "/home/salman/ros2_ws/install/cpp_oop/lib/cpp_oop/cpp_oop_test" to ""
+[5.206s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/package_run_dependencies/cpp_oop
+[5.206s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/parent_prefix_path/cpp_oop
+[5.207s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/ament_prefix_path.sh
+[5.208s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/ament_prefix_path.dsv
+[5.208s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/path.sh
+[5.208s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/environment/path.dsv
+[5.208s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.bash
+[5.209s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.sh
+[5.209s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.zsh
+[5.209s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/local_setup.dsv
+[5.209s] -- Installing: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/package.dsv
+[5.210s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/ament_index/resource_index/packages/cpp_oop
+[5.211s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/cmake/cpp_oopConfig.cmake
+[5.212s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/cmake/cpp_oopConfig-version.cmake
+[5.212s] -- Up-to-date: /home/salman/ros2_ws/install/cpp_oop/share/cpp_oop/package.xml
+[5.218s] Invoked command in '/home/salman/ros2_ws/build/cpp_oop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/salman/ros2_ws/build/cpp_oop

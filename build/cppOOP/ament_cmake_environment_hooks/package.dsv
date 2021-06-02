@@ -1,0 +1,4 @@
+source;share/cppOOP/local_setup.bash
+source;share/cppOOP/local_setup.dsv
+source;share/cppOOP/local_setup.sh
+source;share/cppOOP/local_setup.zsh
